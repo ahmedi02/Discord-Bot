@@ -1,0 +1,9 @@
+import discord
+import getting discord bot online first.py
+from discord.ext import commands
+
+@client.command()
+async def hello(welcome, paynent):
+    await welcome.send("Hello i am bot")
+
+#only got this one response working, I am currently working on how to get more than one response working 
